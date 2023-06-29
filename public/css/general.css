@@ -1,0 +1,30 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+--root{
+    --tipografiaTitulos:'Raleway', sans-serif;
+    --tipografiaEmilia: 'Work sans', sans-serif;
+    --tipografiaGeneral: 'Opensans', sans-serif;
+    --colorVerde: #44a391;
+}
+
+body{
+    font-family: var(---tipografiaGeneral);
+    box-sizing: border-box;
+}
+h1{
+    font-family: var(--tipografiaTitulos);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 65px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+}
+ul, lo{
+    padding-left: 0;
+}
