@@ -1,30 +1,46 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Work Sans', sans-serif; */
---root{
-    --tipografiaTitulos:'Raleway', sans-serif;
+--root {
+    --tipografiaTitulos: 'Raleway', sans-serif;
     --tipografiaEmilia: 'Work sans', sans-serif;
     --tipografiaGeneral: 'Opensans', sans-serif;
-    --colorVerde: #44a391;
+    --colorVerde: #44A391;
 }
 
-body{
-    font-family: var(---tipografiaGeneral);
+body {
+    font-family: var(--tipografiaGeneral);
     box-sizing: border-box;
+    margin: 0px;
 }
-h1{
+
+main {
+    margin: 8px;
+}
+
+h1 {
     font-family: var(--tipografiaTitulos);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 65px;
 }
-a{
+
+.music main h3 {
+    font-family: var(--tipografiaTitulos);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+a {
     text-decoration: none;
     color: black;
 }
-ul li{
+
+ul li {
     list-style: none;
 }
-ul, lo{
+
+ul,
+lo {
     padding-left: 0;
 }

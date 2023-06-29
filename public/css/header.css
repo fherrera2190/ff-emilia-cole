@@ -3,6 +3,11 @@
     margin-bottom: 0;
 }
 
+header a {
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
 .header--vertical {
     margin-top: 20px;
     margin-left: 30px;
@@ -10,22 +15,29 @@
 
 .header--horizontal {
     text-align: right;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .header--horizontal-menu {
     background-color: rgba(255, 255, 255, .5);
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
-.header--vertical a,
-.header--horizontal a {
-    text-transform: uppercase;
-    line-height: 30px;
-    font-weight: 300;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 20px;
+    margin-bottom: 20px;
 }
 
 .header--horizontal nav ul li {
     display: inline;
 }
+
+.header--horizontal-redes {
+    margin-top: 15px;
+    padding-right: 20px
+}
+
+.header--music {
+    background-image: url('/img/emilia-music-top.jpg');
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
+

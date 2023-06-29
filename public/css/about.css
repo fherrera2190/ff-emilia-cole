@@ -9,7 +9,7 @@ body.about {
     margin-top: 100px;
 }
 
-.about article {
+.about article{
     margin-left: 30px;
     color: var(--colorVerde);
 }
@@ -17,5 +17,5 @@ body.about {
 .about h3 {
     font-weight: 400;
     font-size: 24px;
-    line-height: ;
+
 }

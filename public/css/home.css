@@ -15,3 +15,7 @@ body.home {
     margin-top: 125px;
     margin-bottom: 125px;
 }
+
+.home h1 {
+    background-color: rgba(240, 248, 255, .5);
+}

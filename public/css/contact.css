@@ -1,0 +1,15 @@
+.contact main section article h4 {
+    color: var(--colorVerde);
+    font-weight: 500;
+}
+
+.contact main section iframe {
+    width: 100%;
+    height: 360px;
+    border: none;
+}
+
+.contact h2,
+h3 {
+    text-transform: uppercase;
+}
