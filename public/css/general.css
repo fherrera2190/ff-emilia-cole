@@ -1,11 +1,11 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Work Sans', sans-serif; */
---root {
+:root {
     --tipografiaTitulos: 'Raleway', sans-serif;
     --tipografiaEmilia: 'Work sans', sans-serif;
     --tipografiaGeneral: 'Opensans', sans-serif;
-    --colorVerde: #44A391;
+    --colorVerde: rgb(50, 156, 137);
 }
 
 body {
@@ -25,7 +25,7 @@ h1 {
     font-size: 65px;
 }
 
-.music main h3 {
+.main h3 {
     font-family: var(--tipografiaTitulos);
     text-transform: uppercase;
     font-weight: 700;

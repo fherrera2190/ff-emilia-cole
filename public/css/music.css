@@ -6,16 +6,13 @@
     color: grey;
 }
 
-.music main h3 {
-    font-family: var(--tipografiaTitulos);
-    text-transform: uppercase;
-    font-weight: 800;
-}
-
 .music main section p {
     line-height: 10px;
+    font-size: 11px;
 }
-
+.music main section{
+    margin-top:60px;
+}
 .music main ol {
     list-style-type: decimal-leading-zero;
     font-size: 14px;

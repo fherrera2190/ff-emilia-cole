@@ -8,8 +8,13 @@
     height: 360px;
     border: none;
 }
-
+.contact main section p span{
+    color: grey;
+}
 .contact h2,
 h3 {
     text-transform: uppercase;
+}
+.contact h4{
+    font-size: 14px;
 }
